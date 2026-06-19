@@ -73,3 +73,5 @@ protetto e non si tocca mai direttamente.
 - Jacopo Camplone
 - Bruno Barbieri
 - Antonino Cannavacciuolo
+- Carlo Cracco
+- _aggiungi qui il tuo nome! _
