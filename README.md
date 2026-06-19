@@ -72,4 +72,4 @@ protetto e non si tocca mai direttamente.
 - Mario Rossi *(esempio)*
 - Jacopo Camplone
 - Bruno Barbieri
-- _(aggiungi qui il tuo nome)_
+- Carlo Cracco
