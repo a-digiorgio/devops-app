@@ -1,0 +1,15 @@
+target/
+
+.git/
+.gitignore
+.gitattributes
+
+.idea/
+.vscode/
+*.iml
+
+*.log
+.env
+
+docs/
+prova.txt
