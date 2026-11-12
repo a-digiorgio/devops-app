@@ -8,8 +8,6 @@ RUN mvn clean package -DskipTests
 # alpine sta per un'app 'minimale'
 FROM eclipse-temurin:21-jre-alpine
 WORKDIR /app
-#comando temporaneo per aggiornare la libreria apk
-RUN apk upgrade --no-cache
 # comando per creare un utente (in realta' un gruppo, al quale poi assegno l'utente)
 RUN addgroup -S app && adduser -S pippo -G app
 COPY --from=builder /app/target/devops-app-0.0.1-SNAPSHOT.jar app.jar
