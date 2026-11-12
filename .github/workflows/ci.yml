@@ -18,4 +18,4 @@ jobs:
           java-version: 21
           cache: maven
       - name: Build e test
-        run: ./mvnw -B verifiy
+        run: ./mvnw -B verify
