@@ -40,6 +40,7 @@ jobs:
           BRANCH_TAG=$(echo "$GITHUB_REF_NAME" | tr '/' '-' )
           docker build -f Dockerfile_v2 -t "$IMAGE:$GITHUB_SHA" -t "$IMAGE:$BRANCH_TAG" .
       - name: Scan Docker Scout
+        #un'alternativa a Docker Scout e' Trivy Scout
         uses: docker/scout-action@v1
         with:
           command: cves
